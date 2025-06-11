@@ -141,15 +141,6 @@ RANKX(
 
 ---
 
-## 🚀 How to Run This Project
-
-1. Clone the repository
-2. Open `walmart_project.ipynb` to see Python cleaning steps
-3. Run SQL queries from `SQLQuery1.sql` in SQL Server
-4. Open the Power BI file (`.pbix`) to explore dashboard (if shared)
-
----
-
 ## 🧰 Tools Used
 
 - **Python**: pandas, sqlalchemy, pyodbc
