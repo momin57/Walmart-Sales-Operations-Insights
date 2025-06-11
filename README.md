@@ -114,6 +114,9 @@ RANKX(
 )
 ```
 
+## 📷 Dashboard Preview
+
+![Dashboard](Images/Dashboard.png)
 ---
 
 ## 🖼️ Project Files
