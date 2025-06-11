@@ -1,6 +1,6 @@
 # 🛒 Walmart Sales Operations Insights
 
-This project analyzes 10,000+ sales records from Walmart using **Python**, **SQL**, and **Power BI** to uncover key business insights and improve operational decision-making.
+This project analyzes 9,000+ sales records from Walmart using **Python**, **SQL**, and **Power BI** to uncover key business insights and improve operational decision-making.
 
 ## 📂 Dataset Source
 
