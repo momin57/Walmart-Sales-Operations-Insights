@@ -126,7 +126,8 @@ RANKX(
 
 - `walmart_project.ipynb` – Python data prep notebook
 - `SQLQuery1.sql` – Contains all SQL analysis
-- `Dashboard.png` – Final Power BI visual
+- `Dashboard.png` – Final Power BI visual screenshot
+- `walmart_dashboard.pbit` – Power BI Dashboard
 - `README.md` – Project documentation
 - `Walmart.csv` – Original dataset
 - `Walmart Business Problems.pdf` – Problem statements
