@@ -118,7 +118,7 @@ RANKX(
 
 ## 📷 Dashboard Preview
 
-![Dashboard](Images/Dashboard.png)
+![Dashboard](Dashboard.png)
 
 ---
 
