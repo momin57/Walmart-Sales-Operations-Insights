@@ -39,7 +39,7 @@ Techniques used: CTEs, Window Functions (RANK), `TRY_PARSE`, `DATENAME`, conditi
 
 ## 📊 Dashboard & DAX Logic (Power BI)
 
-**➕ Calculated Columns:**
+### ➕ Calculated Columns
 ```DAX
 SalesYear = YEAR(walmart_sales[formatted_date])
 
@@ -57,7 +57,7 @@ RETURN
     )
 ```
 
-**📐 DAX Measures:**
+### 📐 DAX Measures
 ```DAX
 Average_Rating = ROUND(AVERAGE(walmart_sales[rating]), 2)
 Max_Rating = MAX(walmart_sales[rating])
@@ -83,7 +83,7 @@ Total_Revenue = ROUND(SUM(walmart_sales[total]), 2)
 Total_Transactions = COUNT(walmart_sales[invoice_id])
 ```
 
-**📊 Summary Tables:**
+### 📊 Summary Tables
 ```DAX
 CategoryRatings =
 SUMMARIZE(
@@ -102,9 +102,9 @@ SUMMARIZE(
 )
 ```
 
-**🏆 Rankings:**
+### 🏆 Rankings
 ```DAX
-RankByBranch (for both tables) = 
+RankByBranch = 
 RANKX(
     FILTER(
         TableName, 
@@ -114,12 +114,15 @@ RANKX(
 )
 ```
 
+---
+
 ## 📷 Dashboard Preview
 
 ![Dashboard](Images/Dashboard.png)
+
 ---
 
-## 🖼️ Project Files
+## 📁 Project Files
 
 - `walmart_project.ipynb` – Python data prep notebook
 - `SQLQuery1.sql` – Contains all SQL analysis
@@ -135,6 +138,15 @@ RANKX(
 - Branch-specific customer preferences and transaction volumes
 - Category performance varies by region and time
 - Revenue drop analysis helps identify underperforming branches
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone the repository
+2. Open `walmart_project.ipynb` to see Python cleaning steps
+3. Run SQL queries from `SQLQuery1.sql` in SQL Server
+4. Open the Power BI file (`.pbix`) to explore dashboard (if shared)
 
 ---
 
